@@ -1,0 +1,110 @@
+
+/* Base Styles */
+body {
+    background-color: #0A192F;
+    color: #CCD6F6;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #64FFDA;
+}
+
+a {
+    color: #64FFDA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E6F1FF;
+}
+
+button, .button {
+    background-color: #64FFDA;
+    color: #0A192F;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background-color: #8892B0;
+    color: #E6F1FF;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#intro h1 {
+    font-size: 3em;
+}
+
+#intro p {
+    color: #8892B0;
+}
+
+header.major h2 a {
+    color: #64FFDA;
+}
+
+.post {
+    background-color: #112240;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.post img {
+    border-radius: 10px;
+}
+
+ul.actions.special li a {
+    background-color: #64FFDA;
+    color: #0A192F;
+}
+
+ul.actions.special li a:hover {
+    background-color: #8892B0;
+    color: #E6F1FF;
+}
+
+nav#nav {
+    background-color: #112240;
+    padding: 20px;
+}
+
+nav#nav ul.links li a {
+    color: #64FFDA;
+}
+
+nav#nav ul.links li.active a {
+    color: #E6F1FF;
+}
+
+footer {
+    background-color: #0A192F;
+    color: #8892B0;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+footer a {
+    color: #64FFDA;
+}
+
+footer a:hover {
+    color: #E6F1FF;
+}
