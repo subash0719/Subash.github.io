@@ -109,17 +109,12 @@
 </section>
 </div>
 <!-- Scripts -->
-<script>
-        document.querySelectorAll('nav ul.links a').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').substring(1);
-                document.querySelectorAll('.hidden-section').forEach(section => section.style.display = 'none');
-                if (targetId !== 'home') {
-                    document.getElementById(targetId).style.display = 'block';
-                }
-            });
-        });
-</script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
