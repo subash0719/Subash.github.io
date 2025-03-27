@@ -1,32 +1,36 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Subash Siva Portfolio 🌐
 
+Welcome to my personal portfolio website showcasing my Data Analytics and Data Engineering projects.
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+## 🚀 Live Website
+[Visit My Portfolio](https://subash0719.github.io/portfolio/) <!-- Add your actual link -->
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## 📂 Projects Included
+- **Real Estate Operations Dashboard** - [View Project](https://github.com/subash0719/real-estate-dashboard)
+- **OEE Dashboard for Manufacturing** - [View Project](https://github.com/subash0719/oee-dashboard)
+- **ESG Reporting Solution** - [View Project](https://github.com/subash0719/esg-reporting)
+- **Spend Analysis Dashboard** - [View Project](https://github.com/subash0719/spend-analysis)
+- **Data Engineering Projects** - [View All](https://github.com/subash0719?tab=repositories)
 
-(* = not included)
+## 📬 Contact
+- **Email**: subashgokul1019@gmail.com
+- **LinkedIn**: [Connect](https://www.linkedin.com/in/subash0719)
+- **GitHub**: [subash0719](https://github.com/subash0719)
 
-AJ
-aj@lkn.io | @ajlkn
+---
 
+### ✅ Next: Updated Project Section
+You should replace your current project placeholders in HTML with actual **Data Engineering projects**.  
+For example:
 
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+```html
+<article>
+    <header>
+        <h2><a href="#">Airflow Pipeline for Data Processing</a></h2>
+    </header>
+    <a href="#" class="image fit"><img src="images/dataengineering.jpg" alt="" /></a>
+    <p>Built an automated data pipeline using Apache Airflow and Python to extract, transform, and load data.</p>
+    <ul class="actions special">
+        <li><a href="https://github.com/subash0719/airflow-data-pipeline" class="button">View Project</a></li>
+    </ul>
+</article>
